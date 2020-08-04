@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/mysite/static/css/main.d57e275e.chunk.css",
+    "main.js": "/mysite/static/js/main.3bdc61d1.chunk.js",
+    "main.js.map": "/mysite/static/js/main.3bdc61d1.chunk.js.map",
+    "runtime-main.js": "/mysite/static/js/runtime-main.3cc60382.js",
+    "runtime-main.js.map": "/mysite/static/js/runtime-main.3cc60382.js.map",
+    "static/css/2.a7128330.chunk.css": "/mysite/static/css/2.a7128330.chunk.css",
+    "static/js/2.462cc6f9.chunk.js": "/mysite/static/js/2.462cc6f9.chunk.js",
+    "static/js/2.462cc6f9.chunk.js.map": "/mysite/static/js/2.462cc6f9.chunk.js.map",
+    "index.html": "/mysite/index.html",
+    "precache-manifest.663b341c93fe481e700704593177a027.js": "/mysite/precache-manifest.663b341c93fe481e700704593177a027.js",
+    "service-worker.js": "/mysite/service-worker.js",
+    "static/css/2.a7128330.chunk.css.map": "/mysite/static/css/2.a7128330.chunk.css.map",
+    "static/css/main.d57e275e.chunk.css.map": "/mysite/static/css/main.d57e275e.chunk.css.map",
+    "static/js/2.462cc6f9.chunk.js.LICENSE.txt": "/mysite/static/js/2.462cc6f9.chunk.js.LICENSE.txt",
+    "static/media/Frontcert.png": "/mysite/static/media/Frontcert.0b1de21f.png",
+    "static/media/Matlabcert.png": "/mysite/static/media/Matlabcert.22ad5310.png",
+    "static/media/Pythoncert.png": "/mysite/static/media/Pythoncert.ef47691e.png",
+    "static/media/React.png": "/mysite/static/media/React.2bee11a8.png",
+    "static/media/Reactcert.png": "/mysite/static/media/Reactcert.a5ef4d50.png",
+    "static/media/bootstrap.png": "/mysite/static/media/bootstrap.e9fcb24d.png",
+    "static/media/daallogo.png": "/mysite/static/media/daallogo.4cb3c10f.png",
+    "static/media/font-awesome.min.css": "/mysite/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/instagram.png": "/mysite/static/media/instagram.4a8c2347.png",
+    "static/media/javascript.png": "/mysite/static/media/javascript.6a4c201c.png",
+    "static/media/jquery.png": "/mysite/static/media/jquery.df0d19de.png",
+    "static/media/matlablogo.png": "/mysite/static/media/matlablogo.5e7a971b.png",
+    "static/media/me2.jpg": "/mysite/static/media/me2.21b580a4.jpg",
+    "static/media/mizanlogo.jpg": "/mysite/static/media/mizanlogo.2283bbc9.jpg",
+    "static/media/sass.jpg": "/mysite/static/media/sass.0c82ea0e.jpg",
+    "static/media/sharif1.jpg": "/mysite/static/media/sharif1.3a802502.jpg",
+    "static/media/shariflogo.jpg": "/mysite/static/media/shariflogo.1d62f13b.jpg",
+    "static/media/telegram.png": "/mysite/static/media/telegram.eb1fa44b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cc60382.js",
+    "static/css/2.a7128330.chunk.css",
+    "static/js/2.462cc6f9.chunk.js",
+    "static/css/main.d57e275e.chunk.css",
+    "static/js/main.3bdc61d1.chunk.js"
+  ]
+}
