@@ -1,0 +1,49 @@
+.profline {
+    width: 90%;
+    height: 5px;
+    background-color: gray;
+}
+
+.aboutdetailline {
+    width: 50%;
+    height: 2px;
+    background-color: gray;
+}
+
+#me {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#aboutme {
+    text-align: left;
+}
+
+#mainsentence {
+    text-align: center;
+}
+
+#uni {
+    color: blue !important;
+    margin: 5px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 980px)
+/* Desktop */
+
+{}
+
+@media screen and (max-width: 979px)
+/* Tablet */
+
+{}
+
+@media screen and (max-width: 500px)
+/* Mobile */
+
+{
+    #me {
+        margin: 10% 0;
+    }
+}

@@ -1,0 +1,132 @@
+.header {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.bg-image {
+    filter: blur(8px);
+    -webkit-filter: blur(3px);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+}
+
+.bg-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+#sticky {
+    /* background-image: linear-gradient(rgb(5, 0, 0), rgb(51, 35, 35)); */
+    background-image: linear-gradient( -45deg, black, rgb(48, 44, 44), rgb(71, 66, 66), rgb(139, 133, 133));
+    color: white;
+    min-height: 10px;
+    width: 100%;
+    margin-right: 2%;
+    font-size: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 3;
+}
+
+.elements {
+    margin-left: 2%;
+    padding: 10px;
+    text-align: center;
+}
+
+#logomenu {
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient( 45deg, black, rgb(48, 44, 44), rgb(71, 66, 66), rgb(139, 133, 133));
+    padding: 10px;
+    text-align: center;
+    z-index: 3;
+    background-color: white;
+}
+
+#logo {
+    cursor: pointer;
+    position: relative;
+    left: 45%;
+}
+
+.sidenav {
+    border-radius: 5px;
+    display: none;
+    background-color: black;
+    text-align: center;
+    opacity: 0.8;
+    color: #f1f1f1;
+    width: 0;
+    position: absolute;
+    right: 0;
+    top: 7%;
+    z-index: 100;
+    transition: 0.4s;
+}
+
+@media screen and (min-width: 980px)
+/* Desktop */
+
+{
+    #logomenu {
+        display: none;
+    }
+    .sidenav {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 979px)
+/* Tablet */
+
+{
+    #sticky {
+        display: none;
+    }
+    #logomenu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 500px)
+/* Mobile */
+
+{
+    #wellcome {
+        font-size: 20px;
+    }
+    .bg-text>h1 {
+        font-size: 30px;
+    }
+    #logmenu {
+        width: 20%;
+    }
+}

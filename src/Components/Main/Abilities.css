@@ -1,0 +1,100 @@
+.abline {
+    width: 90%;
+    height: 5px;
+    background-color: gray;
+}
+
+.fline {
+    width: 15%;
+    height: 2px;
+    background-color: gray;
+}
+
+.skill {
+    float: left;
+}
+
+.progress {
+    margin-top: 2%;
+}
+
+.percenthtml {
+    display: inline-block;
+    width: 70%;
+    /* height: 7px; */
+    background-color: black;
+}
+
+.percentcss {
+    display: inline-block;
+    width: 70%;
+    background-color: black;
+}
+
+.percentjs {
+    display: inline-block;
+    width: 60%;
+    /* height: 7px; */
+    background-color: black;
+}
+
+.percentboots {
+    display: inline-block;
+    width: 60%;
+    /* height: 7px; */
+    background-color: black;
+}
+
+.percentre {
+    display: inline-block;
+    width: 60%;
+    /* height: 7px; */
+    background-color: black;
+}
+
+.percentsass {
+    display: inline-block;
+    width: 60%;
+    /* height: 7px; */
+    background-color: black;
+}
+
+.percentjq {
+    display: inline-block;
+    width: 50%;
+    /* height: 7px; */
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 1%;
+}
+
+.marg {
+    margin-top: 3%;
+}
+
+@media screen and (min-width: 980px)
+/* Desktop */
+
+{}
+
+@media screen and (max-width: 979px)
+/* Tablet */
+
+{
+    .progress {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px)
+/* Mobile */
+
+{}

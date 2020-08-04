@@ -1,0 +1,480 @@
+.Education {
+    width: 90%;
+    height: 5px;
+    background-color: gray;
+}
+
+#Gsubline {
+    width: 50%;
+    height: 2px;
+    background-color: gray;
+}
+
+.disc {
+    text-align: left;
+}
+
+.formarg {
+    width: 60%;
+    position: relative;
+    bottom: 5px;
+    right: 0;
+    margin-left: 3%;
+    float: right;
+    transition: all 0.6s !important;
+}
+
+.formarg:hover {
+    width: 80%;
+    background-color: rgb(44, 36, 36) !important;
+    color: rgb(255, 70, 70) !important;
+}
+
+#animatedDiv {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.justformargin {
+    margin-top: 5%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#front {
+    width: 70%;
+}
+
+
+/* The Modal (background) */
+
+.modalfront {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 100;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-contentfront {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 70% !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 1s;
+    animation-name: animatetop;
+    animation-duration: 1s;
+}
+
+
+/* The Close Button */
+
+.closefront {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closefront:hover,
+.closefront:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-headerfront {
+    padding: 2px 16px;
+    color: white;
+}
+
+.modal-bodyfront {
+    padding: 2px 16px;
+}
+
+
+/***********************************************/
+
+#react {
+    width: 70%;
+}
+
+
+/* The Modal (background) */
+
+.modalreact {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 100;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-contentreact {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 70% !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 1s;
+    animation-name: animatetop;
+    animation-duration: 1s;
+}
+
+
+/* The Close Button */
+
+.closereact {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closereact:hover,
+.closereact:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-headerreact {
+    padding: 2px 16px;
+    color: white;
+}
+
+.modal-bodyreact {
+    padding: 2px 16px;
+}
+
+
+/***********************************************/
+
+#python {
+    width: 70%;
+}
+
+
+/* The Modal (background) */
+
+.modalpython {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 100;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-contentpython {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 70% !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 1s;
+    animation-name: animatetop;
+    animation-duration: 1s;
+}
+
+
+/* The Close Button */
+
+.closepython {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closepython:hover,
+.closepython:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-headerpython {
+    padding: 2px 16px;
+    color: white;
+}
+
+.modal-bodypython {
+    padding: 2px 16px;
+}
+
+
+/***********************************************/
+
+#matlab {
+    width: 70%;
+}
+
+
+/* The Modal (background) */
+
+.modalmatlab {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 100;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-contentmatlab {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 70% !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 1s;
+    animation-name: animatetop;
+    animation-duration: 1s;
+}
+
+
+/* The Close Button */
+
+.closematlab {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closematlab:hover,
+.closematlab:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-headermatlab {
+    padding: 2px 16px;
+    color: white;
+}
+
+.modal-bodymatlab {
+    padding: 2px 16px;
+}
+
+
+/* Add Animation */
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 980px)
+/* Desktop */
+
+{
+    #general {
+        position: relative;
+        top: -34px;
+    }
+    @keyframes example {
+        0% {
+            background-color: red;
+            left: 5%;
+            top: 40px;
+        }
+        25% {
+            background-color: yellow;
+            left: 95%;
+            top: 40px;
+        }
+        50% {
+            background-color: blue;
+            left: 95%;
+            top: 150px;
+        }
+        75% {
+            background-color: green;
+            left: 5%;
+            top: 150px;
+        }
+        100% {
+            background-color: red;
+            left: 5%;
+            top: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 979px)
+/* Tablet */
+
+{
+    @keyframes example {
+        0% {
+            background-color: red;
+            left: 1%;
+            top: 40px;
+        }
+        25% {
+            background-color: yellow;
+            left: 95%;
+            top: 40px;
+        }
+        50% {
+            background-color: blue;
+            left: 95%;
+            top: 170px;
+        }
+        75% {
+            background-color: green;
+            left: 1%;
+            top: 170px;
+        }
+        100% {
+            background-color: red;
+            left: 1%;
+            top: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px)
+/* Mobile */
+
+{
+    @keyframes example {
+        0% {
+            background-color: red;
+            left: 1%;
+            top: 40px;
+        }
+        25% {
+            background-color: yellow;
+            left: 95%;
+            top: 40px;
+        }
+        50% {
+            background-color: blue;
+            left: 95%;
+            top: 210px;
+        }
+        75% {
+            background-color: green;
+            left: 1%;
+            top: 210px;
+        }
+        100% {
+            background-color: red;
+            left: 1%;
+            top: 40px;
+        }
+    }
+}

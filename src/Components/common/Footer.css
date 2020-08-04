@@ -1,0 +1,32 @@
+#Contact {
+    background-image: linear-gradient( 45deg, black, rgb(48, 44, 44), rgb(71, 66, 66), rgb(139, 133, 133));
+    color: white;
+    position: relative;
+    bottom: 0;
+    padding: 2%;
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 1%;
+}
+
+.socialMargin {
+    margin: 1%;
+}
+
+@media screen and (max-width: 500px)
+/* Mobile */
+
+{
+    .King {
+        font-size: 20px;
+    }
+}

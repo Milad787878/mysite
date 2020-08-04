@@ -1,0 +1,51 @@
+.Experiences {
+    width: 90%;
+    height: 5px;
+    background-color: gray;
+}
+
+#Daal {
+    color: blue !important;
+    margin: 2px;
+    font-weight: bold;
+}
+
+#Gamein {
+    color: blue !important;
+    margin: 3px;
+    font-weight: bold;
+}
+
+#Mizan {
+    color: blue !important;
+    margin: 3px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (min-width: 980px)
+/* Desktop */
+
+{}
+
+@media screen and (max-width: 979px)
+/* Tablet */
+
+{
+    .logo {
+        margin-bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 500px)
+/* Mobile */
+
+{
+    .logo {
+        margin-bottom: 15%;
+    }
+}
